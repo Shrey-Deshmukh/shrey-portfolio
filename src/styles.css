@@ -298,6 +298,35 @@ a:hover {
     display: none;
   }
 } */
+
+@media (max-width: 768px) {
+  .nav-inner {
+    justify-content: center;
+  }
+
+  .logo {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    backdrop-filter: none;
+    background: rgba(11, 15, 23, 0.95);
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav .btn {
+    display: none;
+  }
+}
+
+
 @media (prefers-reduced-motion: reduce) {
   body::before {
     display: none;
