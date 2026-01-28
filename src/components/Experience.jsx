@@ -14,7 +14,7 @@ const experienceData = [
   {
     company: "Hewlett Packard Enterprise",
     role: "Software / Cloud Development Engineering Intern",
-    time: "Jan 2023 — July 2024",
+    time: "Jan 2023 — July 2023",
     points: [
       "Developed disaster recovery automation for VMware SRM across all HPE storage systems.",
       "Extended support across multiple storage platforms and modern storage protocols.",

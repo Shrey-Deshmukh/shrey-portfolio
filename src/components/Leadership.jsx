@@ -7,7 +7,7 @@ const leadershipData = [
     //time: "2021 — 2023",
     points: [
       //"Represented the university at Inter-University Cross Country Nationals Championship 2023",
-      "Led and mentored a 30+ team member, overseeing training programs while balancing academic commitments.",
+      "Led and mentored 30+ team members, overseeing training programs while balancing academic commitments.",
       "Planned and executed logistics for the university, coordinating across departments and vendors.",
     ],
   },

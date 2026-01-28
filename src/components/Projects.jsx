@@ -17,10 +17,10 @@ const projectsData = [
     //live: "",
   },
   {
-    name: "Reaction Tester",
-    desc: "Developed a browser-based reaction time tester utilizing randomized delays and event handling to compute user reaction latency.",
+    name: "Reaction Time Analysis Tool",
+    desc: "Browser-based tool for measuring and analyzing reaction time using randomized visual stimuli.",
     //tech: ["HTML5", "CSS3", "Javascript (ES6+)"],
-    github: "https://github.com/Shrey-Deshmukh/ReactionTester",
+    github: "https://github.com/Shrey-Deshmukh/reaction-time-analysis-tool",
     //live: "",
   },
 ]
