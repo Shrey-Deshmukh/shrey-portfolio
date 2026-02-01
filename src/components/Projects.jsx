@@ -18,7 +18,7 @@ const projectsData = [
   },
   {
     name: "Image Effects Lab",
-    desc: "Browser-based tool for measuring and analyzing reaction time using randomized visual stimuli.",
+    desc: "A browser-based image effects lab that applies visual transformations to images using pixel-level manipulation.",
     //tech: ["HTML5", "CSS3", "Javascript (ES6+)"],
     github: "https://github.com/Shrey-Deshmukh/image-effects-lab",
     //live: "",
