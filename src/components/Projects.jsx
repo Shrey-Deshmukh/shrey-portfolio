@@ -9,18 +9,18 @@ const projectsData = [
     //live: "",
   },
   {
-    name: "Green Screen Algorithm",
+    name: "Chroma Key Image Compositor",
     desc: "Implemented a green screen chroma key algorithm that processes image pixel data to detect and remove a green background, replacing it with transparency or an alternate background using color thresholding logic.", 
     //Canvas API to perform chroma key background removal.",
     //tech: ["HTML5", "CSS3", "Javascript (ES6+), "Canvas API"],
-    github: "https://github.com/Shrey-Deshmukh/GreenScreenAlgorithm",
+    github: "https://github.com/Shrey-Deshmukh/chroma-key-image-compositor",
     //live: "",
   },
   {
-    name: "Reaction Time Analysis Tool",
+    name: "Image Effects Lab",
     desc: "Browser-based tool for measuring and analyzing reaction time using randomized visual stimuli.",
     //tech: ["HTML5", "CSS3", "Javascript (ES6+)"],
-    github: "https://github.com/Shrey-Deshmukh/reaction-time-analysis-tool",
+    github: "https://github.com/Shrey-Deshmukh/image-effects-lab",
     //live: "",
   },
 ]
