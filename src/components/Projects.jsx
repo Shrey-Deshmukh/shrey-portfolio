@@ -9,6 +9,13 @@ const projectsData = [
     //live: "",
   },
   {
+    name: "Android Fitness Metrics Calculator",
+    desc: "Android application implementing speed and pace computation for fitness metric interpretation.",
+    //tech: ["Java", "Android SDK", "Gradle"],
+    github: "https://github.com/Shrey-Deshmukh/android-fitness-metrics-calculator",
+    //live: "",
+  },
+  {
     name: "Chroma Key Image Compositor",
     desc: "Implemented a green screen chroma key algorithm that processes image pixel data to detect and remove a green background, replacing it with transparency or an alternate background using color thresholding logic.", 
     //Canvas API to perform chroma key background removal.",
@@ -16,13 +23,13 @@ const projectsData = [
     github: "https://github.com/Shrey-Deshmukh/chroma-key-image-compositor",
     //live: "",
   },
-  {
-    name: "Image Effects Lab",
-    desc: "A browser-based image effects lab that applies visual transformations to images using pixel-level manipulation.",
-    //tech: ["HTML5", "CSS3", "Javascript (ES6+)"],
-    github: "https://github.com/Shrey-Deshmukh/image-effects-lab",
-    //live: "",
-  },
+  // {
+  //   name: "Image Effects Lab",
+  //   desc: "A browser-based image effects lab that applies visual transformations to images using pixel-level manipulation.",
+  //   //tech: ["HTML5", "CSS3", "Javascript (ES6+)"],
+  //   github: "https://github.com/Shrey-Deshmukh/image-effects-lab",
+  //   //live: "",
+  // },
 ]
 
 export default function Projects() {
