@@ -16,7 +16,7 @@ export default function Hero() {
       </p>
 
       <div className="hero-actions">
-        <a className="btn" href="/Shrey_Deshmukh_Resume2.pdf" target="_blank" rel="noreferrer">
+        <a className="btn" href="/Shrey_Deshmukh_Mathworks_Resume.pdf" target="_blank" rel="noreferrer">
           Resume
         </a>
 
