@@ -3,15 +3,22 @@ import Section from "./Section"
 const projectsData = [
   {
     name: "LLM-Assisted Insurance & Survey Automation",
-    desc: "Designing a mobile application that uses multimodal LLMs to analyze field images and generate preliminary insurance and survey reports, with optional AI usage and human verification for compliance.",
-    //tech: ["Dart", "Flutter", "SQLite", "Google Gemini Multimodal LLM", "CI/CD"],
-    //github: "",
+    desc: "Designed an AI-assisted inspection workflow system to automate marine container inspection reporting using multimodal LLMs with structured outputs and human-in-the-loop validation.",
+    tech: ["Python", "Flutter", "SQLite", "Google Gemini API Integration", "CI/CD"],
+    github: "https://github.com/Shrey-Deshmukh/survey_ops_plus_poc",
+    //live: "",
+  },
+  {
+    name: "Recovery Adapter",
+    desc: "Built a Golang-based CLI integrating with storage REST APIs to identify and remediate inconsistent storage states post-failover, eliminating manual multi-step replication operations.",
+    tech: ["Golang", "CLI", "REST API", "JSON"],
+    github: "",
     //live: "",
   },
   {
     name: "Android Fitness Metrics Calculator",
     desc: "Android application implementing speed and pace computation for fitness metric interpretation.",
-    //tech: ["Java", "Android SDK", "Gradle"],
+    tech: ["Java", "Android SDK", "Gradle"],
     github: "https://github.com/Shrey-Deshmukh/android-fitness-metrics-calculator",
     //live: "",
   },
@@ -19,17 +26,17 @@ const projectsData = [
     name: "Chroma Key Image Compositor",
     desc: "Implemented a green screen chroma key algorithm that processes image pixel data to detect and remove a green background, replacing it with transparency or an alternate background using color thresholding logic.", 
     //Canvas API to perform chroma key background removal.",
-    //tech: ["HTML5", "CSS3", "Javascript (ES6+), "Canvas API"],
+    tech: ["HTML5", "CSS3", "Javascript (ES6+)"],
     github: "https://github.com/Shrey-Deshmukh/chroma-key-image-compositor",
     //live: "",
   },
-  // {
-  //   name: "Image Effects Lab",
-  //   desc: "A browser-based image effects lab that applies visual transformations to images using pixel-level manipulation.",
-  //   //tech: ["HTML5", "CSS3", "Javascript (ES6+)"],
-  //   github: "https://github.com/Shrey-Deshmukh/image-effects-lab",
-  //   //live: "",
-  // },
+  {
+    name: "Image Effects Lab",
+    desc: "A browser-based image effects lab that applies visual transformations to images using pixel-level manipulation.",
+    //tech: ["HTML5", "CSS3", "Javascript (ES6+)"],
+    github: "https://github.com/Shrey-Deshmukh/image-effects-lab",
+    //live: "",
+  },
 ]
 
 export default function Projects() {

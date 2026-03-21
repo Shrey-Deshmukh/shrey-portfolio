@@ -6,9 +6,12 @@ const experienceData = [
     role: "Software / Cloud Development Engineer I",
     time: "Aug 2023 — Aug 2025",
     points: [
-      "Developed enterprise Kubernetes Container Storage Provider (CSP) features using CSI.",
-      "Engineered high-availability workflows with custom Kubernetes CRDs and policy-based replication.",
-      "Contributing to ∼ $1.1M Disaster Event Recovery solution by implementing fast snapshot restore workflows"
+      "Worked with cross-functional teams and engineered CSI control-plane logic in Golang within HPE’s Container Storage Provider (CSP) to orchestrate dynamic provisioning and multi-cluster replication of persistent volumes in Kubernetes deployments.",
+      "Designed and implemented Active Peer Persistence using custom Kubernetes CRDs to track array state changes and enable workload rescheduling during inter-array link failures, reducing downtime risk.",
+      "Engineered and released an end-to-end Disable Host Deletion safeguard preventing destructive operations on arrays during active replication, reducing accidental deletion-related escalations to near zero post-release.",
+      "Led root cause analysis for 12 production escalations across Fortune 500 enterprise CSI deployments; increased unit test coverage from 0% to ~40% overall and ~80% in high-risk modules, significantly improving CSI 3.0 release stability.",
+      "Implemented Quick Restore Snapshot for VMFS datastores using array-level fast-copy primitives, reducing recovery and restore time from hours to near-instant and contributing to a $1.1M Disaster Event Recovery engagement.",
+      "Collapsed a 5-step manual provisioning workflow into a single automated operation via dynamic datastore expansion, reducing administrative steps by 80%."
     ],
   },
   {
@@ -16,15 +19,16 @@ const experienceData = [
     role: "Software / Cloud Development Engineering Intern",
     time: "Jan 2023 — July 2023",
     points: [
-      "Developed disaster recovery automation for VMware SRM across all HPE storage systems.",
-      "Extended support across multiple storage platforms and modern storage protocols.",
+      "Developed a Site Recovery Manager (SRM) integration plugin to automate failover, failback, and migration workflows across replicated storage arrays, eliminating manual DR sequencing and improving recovery consistency.",
+      "Implemented multithreaded execution for DR validation and state reconciliation workflows within the SRM plugin, reducing sequential bottlenecks and improving failover readiness by 60% as measured by call logs.",
+      "Extended support across multiple storage platforms and modern storage protocols (FC, iSCSI, NVMEoFC).",
       "Designed a CLI tool during the HPE Storage Creative Days 2023 hackathon to detect and recover inconsistent storage states, ranking among the top 10 innovations.",
     ],
   },
   {
     company: "Starbucks",
-    role: "Summer IT Intern",
-    time: "June 2022 — July 2022",
+    role: "Information Technology Intern",
+    time: "June 2022 — August 2022",
     points: [
       "Contributed to feature development and launch of the Starbucks mobile application.",
       "Performed QA and User Acceptance Testing (UAT) to validate functionality and user workflows.",
