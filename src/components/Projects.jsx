@@ -12,7 +12,7 @@ const projectsData = [
     name: "Recovery Adapter",
     desc: "Built a Golang-based CLI integrating with storage REST APIs to identify and remediate inconsistent storage states post-failover, eliminating manual multi-step replication operations.",
     tech: ["Golang", "CLI", "REST API", "JSON"],
-    github: "",
+    github: "https://github.com/Shrey-Deshmukh/Recovery-Adapter",
     //live: "",
   },
   {
@@ -41,7 +41,21 @@ const projectsData = [
 
 export default function Projects() {
   return (
-    <Section id="projects" title="Projects">
+      <Section id="projects" title="Selected Projects">
+
+      <p className="muted">
+        Here are a few selected projects. For more, see my GitHub.
+      </p>
+      <div className="links" style={{ marginBottom: "16px" }}>
+        <a
+          href="https://github.com/Shrey-Deshmukh"
+          target="_blank"
+          rel="noreferrer"
+        >
+          View all on GitHub →
+        </a>
+      </div>
+
       {projectsData.map((p, index) => (
         <div className="card" key={index}>
           <h3 className="card-title">{p.name}</h3>
@@ -57,7 +71,7 @@ export default function Projects() {
 
           <div className="links">
             <a href={p.github} target="_blank" rel="noreferrer">
-              GitHub Link
+              GitHub →
             </a>
 
             {/* {p.live ? (

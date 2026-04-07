@@ -6,7 +6,7 @@ export default function Hero() {
       <h1 className="hero-title">Shrey Deshmukh</h1>
 
       <p className="hero-subtitle">
-        CS Student @UC Irvine | Ex-HPE
+        Computer Science Student @UC Irvine | Ex-HPE
       </p>
 
       <p className="hero-desc">

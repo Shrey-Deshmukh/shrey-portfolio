@@ -5,15 +5,17 @@ export default function About() {
     <Section id="about" title="About">
 
     <div>
-        Graduate Computer Science student at UC Irvine with over two years of
-        hands-on industry experience at Hewlett Packard Enterprise.
+        I’m a graduate Computer Science student at UC Irvine with over two
+        years of industry experience at Hewlett Packard Enterprise. My work
+        has focused on building storage and infrastructure systems for
+        enterprise environments.
     </div>
 
     <div>
-        Interested in building software that is simple on the surface and
-        thoughtfully engineered underneath. Enjoys learning by building,
-        iterating, and debugging real problems, with an emphasis on clean,
-        maintainable code.
+        I’m a graduate Computer Science student at UC Irvine with over two
+        years of industry experience at Hewlett Packard Enterprise. My work
+        has focused on building storage and infrastructure systems for
+        enterprise environments.
     </div>
 
     </Section>
