@@ -83,10 +83,13 @@ export default function Contact() {
     <Section id="contact" index={6} command="ping shrey" title="Contact">
       <div className="card contact">
         <p className="contact-lead">
-          Graduating in December 2026 and looking for full-time software engineering roles. Send me a message
-          below, or reach me directly by email or LinkedIn.
+          Graduating in December 2026 and looking for full-time software engineering roles.{" "}
+          {profile.contactForm
+            ? "Send me a message below, or reach me directly by email or LinkedIn."
+            : "The best way to reach me is email or LinkedIn."}
         </p>
 
+        {profile.contactForm && (
         <form className="ping-form" name="contact" onSubmit={ping} onFocus={() => setArmed(true)}>
           <div className="ping-lane" aria-hidden="true">
             <span className="mono small">you</span>
@@ -163,11 +166,12 @@ export default function Contact() {
             {sending ? "pinging…" : "ping shrey ↗"}
           </button>
         </form>
+        )}
 
-        <div className="contact-direct">
-          <span className="mono muted small">or reach me directly:</span>
+        <div className={profile.contactForm ? "contact-direct" : undefined}>
+          {profile.contactForm && <span className="mono muted small">or reach me directly:</span>}
           <div className="hero-actions">
-            <a className="btn btn-secondary" href={`mailto:${profile.email}`}>
+            <a className={profile.contactForm ? "btn btn-secondary" : "btn"} href={`mailto:${profile.email}`}>
               {profile.email}
             </a>
             <button className="btn btn-secondary" type="button" onClick={copyEmail}>

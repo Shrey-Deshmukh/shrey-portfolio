@@ -8,6 +8,9 @@ export const profile = {
   github: "https://github.com/Shrey-Deshmukh",
   linkedin: "https://www.linkedin.com/in/shrey-deshmukh",
   resume: "/Shrey_Deshmukh_Resume.pdf",
+  // Contact section message form (Netlify Forms + reCAPTCHA). Set to true to bring it back;
+  // the Netlify form and reCAPTCHA keys stay configured either way.
+  contactForm: false,
   careerStart: new Date(2023, 0, 1),
   role: "software-engineer · ai-researcher · cloud-engineer",
   labels: [
