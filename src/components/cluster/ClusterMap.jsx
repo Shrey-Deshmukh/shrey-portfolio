@@ -160,7 +160,7 @@ export default function ClusterMap() {
         <span className={`dot ${failing ? "dot-warn" : "dot-ok"}`} aria-hidden="true" />
         <span className="mono" role="status">{log}</span>
         <button className="btn-ghost" onClick={simulateFailover} disabled={failing}>
-          simulate failover
+          ▶ simulate failover
         </button>
       </div>
     </div>

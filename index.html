@@ -42,6 +42,13 @@
     </script>
   </head>
   <body>
+    <!-- Static copy of the contact form so Netlify Forms detects it at deploy time. -->
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+      <input type="text" name="bot-field" />
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

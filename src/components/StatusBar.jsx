@@ -26,7 +26,7 @@ export default function StatusBar({ theme, onToggleTheme }) {
           aria-controls="primary-nav"
           onClick={() => setOpen((o) => !o)}
         >
-          {open ? "close" : "nodes"}
+          {open ? "✕ close" : "☰ nodes"}
         </button>
 
         <nav id="primary-nav" className={`nav-links mono${open ? " is-open" : ""}`}>
