@@ -1,10 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shrey Deshmukh | Portfolio</title>
-    <link rel="icon" type="image/png" href="/favicon1.jpeg" />
+    <title>Shrey Deshmukh — Software Engineer</title>
+    <meta
+      name="description"
+      content="Shrey Deshmukh: software engineer and AI researcher. MCS at UC Irvine '26, AI Research Intern at ETAD Lab (Calit2), previously HPE (Kubernetes CSI, replication, disaster recovery). Open to full-time SWE roles."
+    />
+    <meta name="theme-color" content="#05070d" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Shrey Deshmukh — Software Engineer" />
+    <meta
+      property="og:description"
+      content="Software engineer · AI and cloud researcher. MCS @ UC Irvine '26 · ETAD Lab · prev-HPE · open to full-time SWE roles."
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Shrey Deshmukh — Software Engineer" />
+    <meta
+      name="twitter:description"
+      content="Software engineer · AI and cloud researcher. MCS @ UC Irvine '26 · prev-HPE."
+    />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" type="image/jpeg" href="/favicon1.jpeg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      try {
+        var t = localStorage.getItem("theme")
+        if (!t) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark"
+        document.documentElement.dataset.theme = t
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <div id="root"></div>

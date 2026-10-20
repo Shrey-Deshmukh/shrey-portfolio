@@ -1,9 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="footer">
-      <p className="muted">
-        © {new Date().getFullYear()} Shrey Deshmukh. All rights reserved.
-      </p>
+    <footer className="footer mono small muted">
+      <span>© {new Date().getFullYear()} Shrey Deshmukh</span>
     </footer>
   )
 }
