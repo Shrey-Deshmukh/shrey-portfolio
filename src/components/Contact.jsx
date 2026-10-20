@@ -175,7 +175,7 @@ export default function Contact() {
               {profile.email}
             </a>
             <button className="btn btn-secondary" type="button" onClick={copyEmail}>
-              {copied ? "copied ✓" : "copy email"}
+              {copied ? "copied ✓" : "Copy Email"}
             </button>
             <a className="btn btn-secondary" href={profile.linkedin} target="_blank" rel="noreferrer">
               LinkedIn

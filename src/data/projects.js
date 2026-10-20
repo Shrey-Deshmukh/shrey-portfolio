@@ -83,22 +83,4 @@ export const otherProjects = [
     tech: ["Java", "Android SDK", "Gradle"],
     github: "https://github.com/Shrey-Deshmukh/android-fitness-metrics-calculator",
   },
-  {
-    name: "Image Effects Lab",
-    metric: "10+ real-time pixel-level effects via the Canvas API",
-    tech: ["JavaScript", "HTML Canvas", "CSS"],
-    github: "https://github.com/Shrey-Deshmukh/image-effects-lab",
-  },
-  {
-    name: "Chroma Key Image Compositor",
-    metric: "Real-time green-screen keying with adjustable RGB thresholds",
-    tech: ["JavaScript", "HTML Canvas", "CSS"],
-    github: "https://github.com/Shrey-Deshmukh/chroma-key-image-compositor",
-  },
-  {
-    name: "GridHop",
-    metric: "Real-time terminal game on a randomized 50-slot grid",
-    tech: ["Python"],
-    github: "https://github.com/Shrey-Deshmukh/Rabbit-Carrot-Hole-Game/tree/master",
-  },
 ]
