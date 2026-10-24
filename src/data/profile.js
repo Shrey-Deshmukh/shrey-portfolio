@@ -3,13 +3,13 @@ import { projects } from "./projects"
 export const profile = {
   name: "Shrey Deshmukh",
   tagline: "Software Engineer · AI and Cloud Researcher",
-  status: "Masters in Computer Science @ UC Irvine '26 · Prev-HPE · Open to full-time SWE roles",
+  status: "Masters in Computer Science @ UC Irvine '26 · Ex-HPE · Open to full-time SWE roles",
   email: "sdeshmu2@uci.edu",
   github: "https://github.com/Shrey-Deshmukh",
   linkedin: "https://www.linkedin.com/in/shrey-deshmukh",
   resume: "/Shrey_Deshmukh_Resume.pdf",
-  // Contact section message form (Netlify Forms + reCAPTCHA). Set to true to bring it back;
-  // the Netlify form and reCAPTCHA keys stay configured either way.
+  // Contact message form (Netlify Forms + reCAPTCHA), currently off. Set to true to turn it
+  // back on. Setup, Netlify/Google settings and a test checklist: README → "Contact form".
   contactForm: false,
   careerStart: new Date(2023, 0, 1),
   role: "software-engineer · ai-researcher · cloud-engineer",

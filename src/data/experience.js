@@ -44,7 +44,7 @@ export const experience = [
       { prefix: "Top ", value: 5, label: "of 200 teams, HPE hackathon" },
     ],
     points: [
-      "Replaced an 8-step manual runbook with one automated workflow and removed 60% of manual recovery checks, measured against support call logs, by building a multithreaded Python and Go site recovery plugin.",
+      "Replaced an 8-step manual disaster recovery runbook with one automated workflow and removed 60% of manual recovery checks, measured against support call logs, by building a multithreaded Python and Go site recovery plugin.",
       "Extended the plugin across 4 array families with iSCSI, Fibre Channel, and NVMe-oF support, and wrote unit tests for VMware SRM Prepare Reverse Replication workflows.",
       "Placed Top 5 of 200 teams at HPE's All India Hackathon 2023 with a guided Go CLI over storage REST APIs, with safety checks across 14+ edge cases.",
     ],
